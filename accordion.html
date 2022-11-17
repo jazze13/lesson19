@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style-accordion.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="navigation_container">
+        <nav>
+            <ul>
+                <li><a href="index.html">burger</a></li>
+                <li><a href="tabs.html">tabs</a></li>
+                <li><a href="slider.html">slider</a></li>
+                <li><a href="accordion.html">accordion</a></li>
+                <li><a href="dino.html">dino</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="wrap">
+        <div data-spollers data-one-spoller class="block block_1">
+            <div class="block__item">
+                <button tabindex="-1" type="button" data-spoller class="block__title">Обычный спойлер #1</button>
+                <div class="block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque autem consectetur soluta molestias delectus
+                 dolore at enim quis deserunt, vero sapiente, omnis labore, repellat cupiditate optio. Animi totam distinctio nobis?</div>
+            </div>
+            <div class="block__item">
+                <button tabindex="-1" type="button" data-spoller class="block__title">Обычный спойлер #1</button>
+                <div class="block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque autem consectetur soluta molestias delectus
+                 dolore at enim quis deserunt, vero sapiente, omnis labore, repellat cupiditate optio. Animi totam distinctio nobis?</div>
+            </div>
+            <div class="block__item">
+                <button tabindex="-1" type="button" data-spoller class="block__title">Обычный спойлер #1</button>
+                <div class="block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque autem consectetur soluta molestias delectus
+                 dolore at enim quis deserunt, vero sapiente, omnis labore, repellat cupiditate optio. Animi totam distinctio nobis?</div>
+            </div>
+        </div>
+    </div>
+    <div data-spollers ="650, min" class="block block_2">
+        <div class="block__item">
+                <button tabindex="-1" type="button" data-spoller class="block__title">Спойлер работает на экранах >=600px</button>
+                <div class="block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque autem consectetur soluta molestias delectus
+                 dolore at enim quis deserunt, vero sapiente, omnis labore, repellat cupiditate optio. Animi totam distinctio nobis?</div>
+            </div>
+        </div>
+
+
+    <div class="block__item block_3"  data-spollers ="800, min">
+        <button tabindex="-1" type="button" data-spoller class="block__title">Спойлер работает на экранах >=800px</button>
+        <div class="block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque autem consectetur soluta molestias delectus
+         dolore at enim quis deserunt, vero sapiente, omnis labore, repellat cupiditate optio. Animi totam distinctio nobis?</div>
+    </div>
+
+    <div class="block__item block_3"  data-spollers ="800, min">
+        <button tabindex="-1" type="button" data-spoller class="block__title">Спойлер работает на экранах >=800px</button>
+        <div class="block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque autem consectetur soluta molestias delectus
+         dolore at enim quis deserunt, vero sapiente, omnis labore, repellat cupiditate optio. Animi totam distinctio nobis?</div>
+    </div> 
+
+    <script src="assets/js/script-accordion.js"></script>
+</body>
+</html>
